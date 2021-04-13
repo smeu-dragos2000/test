@@ -1,0 +1,124 @@
+/* Font: ( font-family: 'Roboto Condensed', sans-serif; ) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    -webkit-print-color-adjust: exact;
+}
+
+/* ---- Page 2 ---- */
+
+#page2 {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Input container */
+
+
+#result {
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 3px black;
+}
+
+input {
+    margin: 1rem 0;
+    height: 1.8rem;
+    border-radius: .4rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    border-radius: .4rem;
+    width: 100%;
+    cursor: pointer;
+}
+
+/* Big Container */
+
+.result-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 45%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.pictures p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.pictures .column {
+    flex-direction: column-reverse;
+}
+
+.details .column {
+    padding: 0.5rem;
+    border-right: 3px solid rgb(24, 25, 29);
+}
+
+.image-rez {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    background-color: rgb(24, 25, 29);
+    
+}
+
+.active {
+    background: rgb(175, 113, 55);
+}
+
+#image0, #col-text-0 {
+    height: 55%;
+}
+#image1, #col-text-1 {
+    height: 60%;
+}
+#image2, #col-text-2 {
+    height: 65%;
+}
+#image3, #col-text-3 {
+    height: 70%;
+}
+#image4, #col-text-4 {
+    height: 75%;
+}
+#image5, #col-text-5 {
+    height:80%;
+}
+
+/* Triangle */
+
+.column img {
+    width: 120px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+.visible {
+    display: block;
+}

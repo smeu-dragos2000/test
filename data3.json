@@ -1,0 +1,30 @@
+[
+    {
+        "Title": "C",
+        "Alignment": "80"
+    },
+    {
+        "Title": "B",
+        "Alignment": "90"
+    },
+    {
+        "Title": "D",
+        "Alignment": "70"
+    },
+    {
+        "Title": "E",
+        "Alignment": "60"
+    },
+    {
+        "Title": "A",
+        "Alignment": "100"
+    },
+    {
+        "Title": "G",
+        "Alignment": "40"
+    },
+    {
+        "Title": "F",
+        "Alignment": "50"
+    }
+]

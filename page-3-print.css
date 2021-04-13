@@ -1,0 +1,55 @@
+/* Font: ( font-family: 'Roboto Condensed', sans-serif; ) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    -webkit-print-color-adjust: exact; 
+}
+
+
+
+/* ---- Page 3 ---- */
+
+#page3 {
+    position: relative;
+    padding: 2rem;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+table {
+    width: 80%;
+    text-align: left;
+    
+}
+
+th {
+    background-color: rgb(70, 105, 158);
+    border: 1px solid white;
+    color: white;
+    padding: .5rem;
+}
+
+tr {
+    background-color: rgb(213, 220, 231);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(185, 197, 221);;
+}
+
+td {
+    padding: .5rem;
+    border: 1px solid white;
+    font-weight: 600;
+}
+
